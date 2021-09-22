@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body{
+    font-family: 'Manrope', sans-serif;
+    
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(180, 135, 223);
+    padding: 20px;
+   
+  }
+
+  #banner{
+    background-image: url(https://www.banksy.co.uk/img/Bristol-Totterdown2400.jpg);
+    height: calc(100vh - 84px);
+    background-position: center;
+    background-size: cover;    
+  }
+
+  .videos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    padding: 30px;
+  }
+
+  ul{
+      list-style-type: none;
+      display: flex;
+      gap: 15px;
+
+  }
+
+  #btn{
+    padding: 10px 10px;
+    font-weight: bold;
+    border-radius: 9px;
+    border: none;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(180, 135, 223);
+  }
+
+  #btn:hover{
+    background-color: thistle;
+  }
